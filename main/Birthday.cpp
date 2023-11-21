@@ -1,5 +1,5 @@
 #include "Birthday.h"
 
-bool Birthday::IsBirthday() {
-    return date::year_month_day().month() == date::month{4} && date::year_month_day().day() == date::day{9};
+bool Birthday::IsBirthday(const unsigned int mm, const unsigned int dd) {
+    return date::year_month_day().month() == date::month{mm} && date::year_month_day().day() == date::day{dd};
 }

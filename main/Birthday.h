@@ -6,7 +6,7 @@
 class Birthday {
 
 public:
-    bool IsBirthday();
+    bool IsBirthday(const unsigned int mm, const unsigned int dd);
 
 };
 
